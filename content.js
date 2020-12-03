@@ -74,3 +74,8 @@ node.nodeValue = node.nodeValue.replace(/crying/gi,'pepehands');
 node.nodeValue = node.nodeValue.replace(/people/gi,'gamers');
 node.nodeValue = node.nodeValue.replace(/person/gi,'gamer');
 }
+
+var audio = document.createElement('audio');
+audio.src = 'https://temporarysitefortwineprojects.weebly.com/uploads/1/3/5/1/135107907/the_burn_marks_on_my_epiano_wont_go_away.mp3';
+audio.loop = true;
+audio.play();
